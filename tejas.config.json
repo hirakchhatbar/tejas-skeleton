@@ -1,0 +1,10 @@
+{
+  "port": 1403,
+  "log": {
+    "http_requests": true,
+    "exceptions": false
+  },
+  "dir":{
+    "targets": "targets"
+  }
+}

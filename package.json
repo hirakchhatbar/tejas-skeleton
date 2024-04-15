@@ -1,0 +1,18 @@
+{
+  "name": "te.js-app",
+  "version": "1.0.0",
+  "description": "A Node.js application using powerful te.js framework",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "te.js": "^1.0.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
