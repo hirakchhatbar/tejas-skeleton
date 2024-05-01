@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "te.js": "^1.0.6"
+    "mongoose": "^8.3.2",
+    "te.js": "^1.1.0"
   },
   "keywords": [],
   "author": "",
