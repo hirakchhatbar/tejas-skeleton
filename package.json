@@ -4,12 +4,17 @@
   "description": "A Node.js application using powerful te.js framework",
   "main": "app.js",
   "type": "module",
+  "bin": {
+    "tejas": "./bin/tejas-cli.js"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "commander": "^12.0.0",
     "cors": "^2.8.5",
+    "fs-extra": "^11.2.0",
     "mongoose": "^8.3.2",
     "te.js": "^1.1.1"
   },
